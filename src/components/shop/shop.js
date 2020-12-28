@@ -14,10 +14,11 @@ class Shop extends Component {
             }
         ]
         this.props.setHeaderLinks(headerLinks);
-        // fetch shop products action creator
+        this.props.fetchShopCategories();
         // fetch navbar links
             // set navbar links
             // filter products with links
+        // fetch shop products action creator
     }
     render() {
         return (
@@ -36,4 +37,4 @@ function mapStateToProps(state) {
 
 Shop = connect(mapStateToProps, actions)(Shop);
 
-export default Shop; 
+export default Shop;
