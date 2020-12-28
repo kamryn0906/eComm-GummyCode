@@ -21,7 +21,7 @@ export function fetchUserPurchases() {
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Jordan Hudgens',
+                    name: 'Kamryn Delaleu',
                     shippingAddress: '1234 West State Street'
                 }
             },
@@ -65,7 +65,7 @@ export function fetchUserPurchases() {
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Jordan Hudgens',
+                    name: 'Kamryn Delaleu',
                     shippingAddress: '1234 West State Street'
                 }
             },
@@ -87,7 +87,7 @@ export function fetchUserPurchases() {
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Jordan Hudgens',
+                    name: 'Kamryn Delaleu',
                     shippingAddress: '1234 West State Street'
                 }
             },
